@@ -1,0 +1,10 @@
+# Built programs go on the GitHub Releases page, not in the code history
+HomeShare.exe
+Versions/
+build/
+dist/
+*.spec
+
+# Python leftovers
+__pycache__/
+*.pyc
