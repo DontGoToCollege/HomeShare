@@ -32,3 +32,7 @@ Your files never leave your home network.
 
 - Tests: `python test_homeshare.py`
 - Build the Windows program: raise `VERSION` in `homeshare.py`, then `python build.py`
+
+## License
+
+MIT: free for anyone to use, change and share. See [LICENSE](LICENSE).
