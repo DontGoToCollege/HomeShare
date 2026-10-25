@@ -12,6 +12,7 @@ People with no computer experience. Anything technical must be handled for them 
 - `homeshare.py`: the whole app: server and page (the page is the `PAGE` string near the end).
 - `test_homeshare.py`: run `python test_homeshare.py` before every build. It must pass with and without the optional libraries.
 - `build.py`: tests, builds `HomeShare.exe`, and files a copy in `Versions\Archive\HomeShare-<VERSION>.exe`. Raise `VERSION` at the top of `homeshare.py` first. It refuses a version that's already archived.
+- GitHub: https://github.com/DontGoToCollege/HomeShare (public). After each build: commit, push, and `gh release create v<VERSION> "HomeShare.exe#HomeShare.exe (Windows)"`.
 - Optional libraries bundled in the exe: Pillow, pystray, segno, mutagen, pypdfium2. The script still runs without them.
 
 ## Lessons learned (don't repeat)
